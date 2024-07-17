@@ -1,0 +1,4 @@
+<button type="primary" bind:tap="photoCapture">点击拍摄图片</button>
+<image src="{{photoLink}}"></image>
+<button type="primary" bind:tap="videoCapture">点击拍摄视频</button>
+<image src="{{videoLink}}"></image>
